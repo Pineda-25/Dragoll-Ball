@@ -1,11 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <h1>Explorador Dragon Ball</h1>
+    <div id="buscar">
+      <select>
+        <option value="">Seleccionar una raza</option>
+        <option value="HU">Humano</option>
+        <option value="SA">Saiyan</option>
+        <option value="NA">Namekiano</option>
+        <option value="MA">Majin</option>
+        <option value="FRI">Freezer</option>
+        <option value="AN">Androide</option>
+      </select>
+      <button id="btnMostrar">Mostrar</button>
+    </div>
+    <div id="bloqueTabla">
+      <table border="1">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Nombre</th>
+            <th>Ki</th>
+            <th>Genero</th>
+            <th>Imagen</th>
+            <th>Detalle</th>
+          </tr>
+        </thead>
+        <tbody id="cuerpoTabla"></tbody>
+      </table>
+    </div>
+  </body>
 </html>
