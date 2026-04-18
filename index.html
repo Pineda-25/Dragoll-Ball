@@ -8,14 +8,21 @@
   <body>
     <h1>Explorador Dragon Ball</h1>
     <div id="buscar">
-      <select>
-        <option value="">Seleccionar una raza</option>
-        <option value="HU">Humano</option>
-        <option value="SA">Saiyan</option>
-        <option value="NA">Namekiano</option>
-        <option value="MA">Majin</option>
-        <option value="FRI">Freezer</option>
-        <option value="AN">Androide</option>
+      <select id="selectRaza">
+        <option value="">Seleccionar raza</option>
+        <option value="Human">Humano</option>
+        <option value="Saiyan">Saiyajin</option>
+        <option value="Namekian">Namekiano</option>
+        <option value="Majin">Majin</option>
+        <option value="Frieza Race">Raza de Freezer</option>
+        <option value="Android">Androide</option>
+        <option value="Jiren Race">Raza de Jiren</option>
+        <option value="God">Dios</option>
+        <option value="Angel">Ángel</option>
+        <option value="Evil">Maligno</option>
+        <option value="Nucleico">Nucleico</option>
+        <option value="Nucleico benigno">Nucleico Benigno</option>
+        <option value="Unknown">Desconocido</option>
       </select>
       <button id="btnMostrar">Mostrar</button>
     </div>
@@ -35,20 +42,20 @@
       </table>
     </div>
     <div id="bloqueDetalle">
-        <div id="transformacion"></div>
-        <h3>Transformaciones</h3>
-        <select  id="trans">
-        </select>
-        <button id="btnVerTrasformacion">Ver Transformaciones </button>
+      <div id="transformacion"></div>
+      <h3>Transformaciones</h3>
+      <select id="trans"></select>
+      <button id="btnVerTrasformacion">Ver Transformaciones</button>
     </div>
     <div id="info">
-        <img id="imgPersonaje" src="" alt="Imagen del Personaje" width="200">
-        <ul>
-            <li><strong>Nombre:</strong> <span id="txtNombre"></span></li>
-            <li><strong>Ki:</strong> <span id="txtKi"></span></li>
-            <li><strong>Género:</strong> <span id="txtGenero"></span></li>
-            <li><strong>Descripcion:</strong> <span id="txtDescripcion"></span></li>
-        </ul>
+      <img id="imgPersonaje" src="" alt="Imagen del Personaje" width="200" />
+      <ul>
+        <li><strong>Nombre:</strong> <span id="txtNombre"></span></li>
+        <li><strong>Ki:</strong> <span id="txtKi"></span></li>
+        <li><strong>Género:</strong> <span id="txtGenero"></span></li>
+        <li><strong>Descripcion:</strong> <span id="txtDescripcion"></span></li>
+      </ul>
     </div>
+    <script src="app.js"></script>
   </body>
 </html>
