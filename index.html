@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      .oculto {
+        display: none !important;
+      }
+    </style>
   </head>
   <body>
     <h1>Explorador Dragon Ball</h1>
@@ -41,20 +46,21 @@
         <tbody id="cuerpoTabla"></tbody>
       </table>
     </div>
-    <div id="bloqueDetalle">
-      <div id="transformacion"></div>
-      <h3>Transformaciones</h3>
-      <select id="trans"></select>
-      <button id="btnVerTrasformacion">Ver Transformaciones</button>
-    </div>
-    <div id="info">
+    <div id="bloqueDetalle" class="oculto">
       <img id="imgPersonaje" src="" alt="Imagen del Personaje" width="200" />
-      <ul>
-        <li><strong>Nombre:</strong> <span id="txtNombre"></span></li>
-        <li><strong>Ki:</strong> <span id="txtKi"></span></li>
-        <li><strong>Género:</strong> <span id="txtGenero"></span></li>
-        <li><strong>Descripcion:</strong> <span id="txtDescripcion"></span></li>
-      </ul>
+      <div id="info" class="oculto">
+        <ul>
+          <li><strong>Nombre:</strong> <span id="txtNombre"></span></li>
+          <li><strong>Ki:</strong> <span id="txtKi"></span></li>
+          <li><strong>Género:</strong> <span id="txtGenero"></span></li>
+          <li><strong>Descripcion:</strong> <span id="txtDescripcion"></span></li>
+        </ul>
+      </div>
+      <div id="transformacion" class="oculto">
+        <h3>Transformaciones</h3>
+        <select id="trans"></select>
+        <button id="btnVerTrasformacion">Ver Transformaciones</button>
+      </div>
     </div>
     <script src="app.js"></script>
   </body>
