@@ -136,6 +136,11 @@ Esta aplicación utiliza la **Dragon Ball API** que proporciona información com
 - **Inputs y selects personalizados:** Con transparencia y efectos blur
 - **Diseño responsive:** Adaptable a diferentes tamaños de pantalla
 
+##  Vista Previa
+
+![Captura de pantalla de Explorador Dragon Ball](IMG/image.png)
+
+
 ##  Tecnologías Utilizadas
 
 - **HTML5:** Estructura de la página
