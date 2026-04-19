@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/stilo.css" />
+    <style>
+      .oculto {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <video autoplay muted loop id="videoFondo">
+      <source src="../MP4/tarea.mp4" type="video/mp4" />
+      No cargo el video
+    </video>
+    <div class="principal">
+      <h1>Explorador Dragon Ball</h1>
+      <div id="buscar">
+        <select id="selectRaza">
+          <option value="">Seleccionar raza</option>
+          <option value="Human">Humano</option>
+          <option value="Saiyan">Saiyajin</option>
+          <option value="Namekian">Namekiano</option>
+          <option value="Majin">Majin</option>
+          <option value="Frieza Race">Raza de Freezer</option>
+          <option value="Android">Androide</option>
+          <option value="Jiren Race">Raza de Jiren</option>
+          <option value="God">Dios</option>
+          <option value="Angel">Ángel</option>
+          <option value="Evil">Maligno</option>
+          <option value="Nucleico">Nucleico</option>
+          <option value="Nucleico benigno">Nucleico Benigno</option>
+          <option value="Unknown">Desconocido</option>
+        </select>
+        <button id="btnMostrar">Mostrar</button>
+      </div>
+      <div id="bloqueTabla">
+        <table id="tablaPersonajes">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Nombre</th>
+              <th>Ki</th>
+              <th>Genero</th>
+              <th>Imagen</th>
+              <th>Detalle</th>
+            </tr>
+          </thead>
+          <tbody id="cuerpoTabla"></tbody>
+        </table>
+      </div>
+      <div id="bloqueDetalle" class="oculto">
+        <div class="detalle-flex">
+          <div class="detalle-col-img">
+            <img id="imgPersonaje" src="" alt="Imagen del Personaje" />
+          </div>
+
+          <div id="info" class="detalle-col-info oculto">
+            <h2 id="txtNombre"></h2>
+            <p><strong>Ki:</strong> <span id="txtKi"></span></p>
+            <p><strong>Género:</strong> <span id="txtGenero"></span></p>
+            <p>
+              <strong>Descripción:</strong> <span id="txtDescripcion"></span>
+            </p>
+          </div>
+        </div>
+
+        <div id="transformacion" class="oculto">
+          <h3>Transformaciones</h3>
+          <select id="trans"></select>
+          <button id="btnVerTrasformacion">Ver Transformación</button>
+        </div>
+      </div>
+    </div>
+    <script src="../JS/app.js"></script>
+  </body>
+</html>
