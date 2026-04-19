@@ -26,7 +26,7 @@ Este proyecto es una aplicación Full Stack que consume la API de Dragon Ball pa
 git clone https://github.com/Pineda-25/Dragoll-Ball.git
 
 
-# Abre el archivo HTML en tu navegador
+# Puedes usar las carpetas ordenadas e mismo que que estan suelto 
 # Opción 1: Abre directamente HTML/index.html en tu navegador
 # Opción 2: Usa un servidor local (recomendado)
 ```
