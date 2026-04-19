@@ -1,9 +1,10 @@
+/*  */
 body {
   font-family: sans-serif;
-  margin: 15px;
-  padding: 15px;
+  margin: 10px;
+  padding: 10px;
 }
-
+/* modificar el video de fondo */
 #videoFondo{
   position: fixed;
   right: 0;
@@ -14,11 +15,69 @@ body {
   object-fit: cover;
 }
 
+/* darle un cuadro transparente pa que resalte el contenido */
 .principal{
-  background-color: rgba(118, 203, 243, 0.158);
+  background-color: rgba(120, 202, 240, 0.144);
   color: rgb(0, 0, 0);
-  max-width: 1000px;
-  margin: auto;
-  padding: 30px;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
   border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+table{
+  width: 70%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background-color: rgba(120, 226, 230, 0.315);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td{
+  padding: 8px 10px;
+  text-align: left;
+  border-bottom: 1px solid #00000041;
+}
+
+th {
+  text-transform: uppercase;
+}
+
+tr:hover{
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
+button{
+  background-color: #96c8f169;
+  color: rgb(0, 0, 0);
+  border: rgb(0, 0, 0);
+  padding: 8px 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+button:hover{
+  background-color: rgba(157, 247, 235, 0.433);
+  transform: scale(1.10);
+}
+
+strong{
+  color: #ff9900d3; 
+  font-size: 1.1em; 
+  letter-spacing: 1px;
+}
+
+#bloqueDetalle{
+  background:rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 30px;
+  margin-top: 35px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
 }
