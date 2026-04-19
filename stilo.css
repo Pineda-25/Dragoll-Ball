@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+  margin: 15px;
+  padding: 15px;
+}
+
+#videoFondo{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.principal{
+  background-color: rgba(118, 203, 243, 0.158);
+  color: rgb(0, 0, 0);
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px;
+}

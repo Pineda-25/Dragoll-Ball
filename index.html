@@ -4,13 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="stilo.css" />
     <style>
       .oculto {
-        display: none !important;
+        display: none;
       }
     </style>
   </head>
   <body>
+    <video  autoplay muted loop id="videoFondo">
+      <source src="tarea.mp4" type="video/mp4">
+      No cargo el video
+    </video>
+    <div class="principal">
     <h1>Explorador Dragon Ball</h1>
     <div id="buscar">
       <select id="selectRaza">
@@ -62,6 +68,7 @@
         <button id="btnVerTrasformacion">Ver Transformaciones</button>
       </div>
     </div>
+     </div>
     <script src="app.js"></script>
   </body>
 </html>
